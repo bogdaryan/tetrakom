@@ -1,0 +1,38 @@
+.section {
+  border-left: 1px solid #000;
+}
+
+.inn {
+  font-size: 44px;
+  border-bottom: 1px solid black;
+  padding: 25px 0 40px 0;
+  text-align: center;
+}
+
+.mid {
+  display: grid;
+  grid-template-columns: 383px 1fr;
+}
+
+@media screen and (max-width: 1200px) {
+  .section {
+    border-left: none;
+  }
+
+  .inn {
+    font-size: 33px;
+    padding: 6px 0 12px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .inn {
+    font-size: 18px;
+    padding: 6px 0 6px 0;
+  }
+
+  .mid {
+    display: grid;
+    grid-template-columns: 188px 1fr;
+  }
+}

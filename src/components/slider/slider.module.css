@@ -1,0 +1,62 @@
+.title {
+  text-align: center;
+  margin-bottom: 45px;
+  font-size: 52px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 28px;
+  margin-bottom: 88px;
+  user-select: none;
+  z-index: 999;
+  position: relative;
+}
+
+:global(.mySwiperOut .swiper-slide) {
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+:global(.mySwiperOut .swiper-slide-prev) {
+  transform: scale(0.8) translate(51px, -5px) !important;
+  transition: transform 0.3s ease;
+}
+:global(.mySwiperOut .swiper-slide-next) {
+  transform: scale(0.8) translate(-51px, -5px) !important;
+  transition: transform 0.3s ease;
+}
+
+:global(.mySwiperOut .swiper-slide-active) {
+  opacity: 1;
+}
+
+.btnNext,
+.btnPrev {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1024px) {
+  .title {
+    font-size: 32px;
+    margin-bottom: 37px;
+  }
+
+  .navigation {
+    margin-top: -20px;
+    margin-bottom: 53px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .title {
+    font-size: 21px;
+    margin-bottom: 21px;
+  }
+
+  .navigation {
+    display: none;
+  }
+}

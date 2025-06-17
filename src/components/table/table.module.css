@@ -1,0 +1,13 @@
+.footer {
+  display: grid;
+  grid-template-columns: 510px 1fr;
+  min-height: 440px;
+  border-top: 1px solid #000;
+}
+
+@media screen and (max-width: 1200px) {
+  .footer {
+    grid-template-columns: 1fr;
+    min-height: auto;
+  }
+}

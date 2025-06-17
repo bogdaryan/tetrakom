@@ -1,0 +1,30 @@
+.buttom {
+  min-height: 200px;
+  display: grid;
+  grid-template-columns: 157px 149px 102px 1fr;
+}
+
+.title {
+  font-size: 24px;
+  text-align: center;
+}
+
+.item {
+  height: 40px;
+}
+
+.list {
+  border-right: 1px solid black;
+}
+
+.list:last-child {
+  border-right: none;
+}
+
+.item {
+  border-bottom: 1px solid black;
+}
+
+.item:last-child {
+  border-bottom: none;
+}
