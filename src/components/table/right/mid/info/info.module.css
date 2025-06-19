@@ -40,13 +40,13 @@
   }
 
   .list {
-    gap: 3px;
+    gap: 0px;
   }
+}
 
+@media screen and (max-width: 450px) {
   .titleBold {
     font-size: 14px;
-    margin-right: 6px;
-    text-decoration: underline;
   }
 
   .title {

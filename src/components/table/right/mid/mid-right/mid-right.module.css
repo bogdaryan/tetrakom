@@ -40,7 +40,7 @@
   height: 100%;
   display: flex;
   justify-content: center;
-  margin-top: 20px;
+  align-items: center;
 }
 
 .bottom {
@@ -59,12 +59,13 @@
   padding: 6px;
 }
 
+.pseudoSpan::after {
+  content: 'Масштаб';
+}
+
 @media screen and (max-width: 768px) {
-  .bottom {
-    grid-template-columns: 1fr;
-  }
-  .bottomText:nth-child(2) {
-    display: none;
+  .header {
+    grid-template-rows: 1fr;
   }
 
   .bottomText {
@@ -73,19 +74,29 @@
     justify-content: center;
     font-size: 16px;
     padding: 0;
-    height: 24px;
   }
 
   .title {
-    font-size: 0px;
-    padding: 12px;
-  }
-
-  .columns {
-    display: none;
+    font-size: 16px;
   }
 
   .number {
-    display: none;
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 615px) {
+  .pseudoSpan::after {
+    content: 'М-таб';
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .header {
+    display: grid;
+  }
+
+  .title {
+    font-size: 13px;
   }
 }

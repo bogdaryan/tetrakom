@@ -25,14 +25,21 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 570px) {
+  .mid {
+    grid-template-columns: 290px 1fr;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .mid {
+    grid-template-columns: 187px 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
   .inn {
     font-size: 18px;
     padding: 6px 0 6px 0;
-  }
-
-  .mid {
-    display: grid;
-    grid-template-columns: 188px 1fr;
   }
 }

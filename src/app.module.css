@@ -35,6 +35,8 @@
 }
 
 .outside {
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   justify-content: end;
   padding-right: 108px;
@@ -68,6 +70,12 @@
   }
 }
 
+@media screen and (max-width: 570px) {
+  .outside {
+    grid-template-columns: 290px 1fr;
+  }
+}
+
 @media screen and (max-width: 767px) {
   .a4 {
     margin-top: 0;
@@ -82,10 +90,6 @@
     padding-bottom: 0;
   }
 
-  .outside {
-    display: none;
-  }
-
   .title {
     max-width: 249px;
     font-size: 24px;
@@ -93,5 +97,16 @@
     margin-top: 25px;
     margin-bottom: 49px;
     margin-right: 19px;
+  }
+
+  .textBottom {
+    font-size: 16px;
+    margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .outside {
+    display: none;
   }
 }

@@ -17,7 +17,7 @@ export default function MidRight() {
           <span className={styles.number}>100+</span>
         </li>
         <li className={styles.item}>
-          <span className={styles.title}>Масштаб</span>
+          <span className={`${styles.title} ${styles.pseudoSpan}`}></span>
           <span className={styles.number}>1:1</span>
         </li>
       </ul>
