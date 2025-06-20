@@ -21,7 +21,7 @@
 .titleBold {
   width: fit-content;
   height: fit-content;
-  font-size: 20px;
+  font-size: 16px;
   margin-right: 6px;
 }
 
@@ -37,10 +37,6 @@
     padding-top: 0;
     padding-left: 5px;
     padding-bottom: 0;
-  }
-
-  .list {
-    gap: 0px;
   }
 }
 
