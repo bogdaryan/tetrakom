@@ -7,7 +7,6 @@ export default function Info() {
         <ul className={styles.list}>
           <li className={styles.item}>
             <p className={styles.title}>
-              {' '}
               <span className={styles.titleBold}>ОГРН:</span>1121690081853
             </p>
           </li>

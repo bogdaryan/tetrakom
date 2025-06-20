@@ -8,14 +8,18 @@ export default function Up() {
         <li className={styles.item}></li>
         <li className={styles.item}></li>
         <li className={styles.item}></li>
-        <li className={`${styles.title} ${styles.item}`}>Изм.</li>
+        <li className={`${styles.textLeft} ${styles.title} ${styles.item}  `}>
+          Изм.
+        </li>
       </ul>
       <ul className={styles.list}>
         <li className={styles.item}></li>
         <li className={styles.item}></li>
         <li className={styles.item}></li>
         <li className={styles.item}></li>
-        <li className={`${styles.title} ${styles.item}`}>Лист</li>
+        <li className={`${styles.textLeft} ${styles.title} ${styles.item} `}>
+          Лист
+        </li>
       </ul>
       <ul className={styles.list}>
         <li className={styles.item}></li>

@@ -10,7 +10,7 @@ import { Navigation } from 'swiper/modules';
 export default function Slider() {
   return (
     <section className={styles.container}>
-      <h2 className={styles.title}>Наши проекты</h2>
+      <h2 className={styles.title}>Наши объекты</h2>
       <Swiper
         modules={[Navigation]}
         slidesPerView={3}

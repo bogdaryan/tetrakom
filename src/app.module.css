@@ -70,12 +70,6 @@
   }
 }
 
-@media screen and (max-width: 570px) {
-  .outside {
-    grid-template-columns: 290px 1fr;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .a4 {
     margin-top: 0;
@@ -91,9 +85,8 @@
   }
 
   .title {
-    max-width: 249px;
-    font-size: 24px;
-    line-height: 26px;
+    max-width: 450px;
+    font-size: 44px;
     margin-top: 25px;
     margin-bottom: 49px;
     margin-right: 19px;
@@ -102,6 +95,20 @@
   .textBottom {
     font-size: 16px;
     margin-top: 16px;
+  }
+}
+
+@media screen and (max-width: 510px) {
+  .title {
+    max-width: 249px;
+    font-size: 24px;
+    line-height: 26px;
+  }
+}
+
+@media screen and (max-width: 570px) {
+  .outside {
+    grid-template-columns: 290px 1fr;
   }
 }
 
