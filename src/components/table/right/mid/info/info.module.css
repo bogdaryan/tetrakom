@@ -29,6 +29,17 @@
 }
 
 @media screen and (max-width: 1200px) {
+  .info {
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 5px;
+    display: flex;
+    align-items: center;
+  }
+
+  .list {
+    gap: 2px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -39,14 +50,12 @@
     padding-left: 5px;
     padding-bottom: 0;
   }
-}
 
-@media screen and (max-width: 450px) {
   .titleBold {
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .title {
-    font-size: 14px;
+    font-size: 13px;
   }
 }

@@ -64,48 +64,60 @@
   content: 'Масштаб';
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1200px) {
+  .header {
+    grid-template-rows: 1fr;
+  }
+
   .bottomText {
     font-size: 16px;
   }
 
   .title {
     font-size: 16px;
+    padding: 0;
   }
 
   .number {
     font-size: 20px;
   }
-}
 
-@media screen and (max-width: 615px) {
-  .pseudoSpan::after {
-    content: 'М-таб';
+  .columns {
+    height: calc(20px * 3);
+  }
+
+  .bottomText {
+    padding-top: 0px;
+    padding-bottom: 0px;
   }
 }
 
-@media screen and (max-width: 570px) {
-  .header {
-    grid-template-rows: 120px 1fr;
+@media screen and (max-width: 768px) {
+  .column {
+    display: none;
   }
-}
 
-@media screen and (max-width: 470px) {
-  .header {
-    grid-template-rows: 1fr;
-  }
-}
-
-@media screen and (max-width: 450px) {
-  .header {
-    grid-template-rows: 140px 1fr;
+  .bottomText:nth-child(2) {
+    display: none;
   }
 
   .title {
     font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
+  }
+
+  .number {
+    font-size: 16px;
+  }
+
+  .pseudoSpan::after {
+    content: 'М-таб';
   }
 
   .bottomText {
     font-size: 13px;
+    padding-top: 2px;
+    padding-bottom: 2px;
   }
 }

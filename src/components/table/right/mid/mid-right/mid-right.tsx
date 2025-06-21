@@ -18,7 +18,7 @@ export default function MidRight() {
         </li>
         <li className={styles.item}>
           <span className={`${styles.title} ${styles.pseudoSpan}`}></span>
-          <span className={styles.number}>1:1</span>
+          <span className={`${styles.number} ${styles.oneToOne}`}>1:1</span>
         </li>
       </ul>
       <div className={styles.bottom}>
