@@ -1,6 +1,6 @@
 .header {
   display: grid;
-  grid-template-rows: 160px 1fr;
+  grid-template-rows: 165px 1fr;
 }
 
 .list {
@@ -86,7 +86,7 @@
 
 @media screen and (max-width: 450px) {
   .header {
-    display: grid;
+    grid-template-rows: 140px 1fr;
   }
 
   .title {
