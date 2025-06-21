@@ -84,6 +84,18 @@
   }
 }
 
+@media screen and (max-width: 570px) {
+  .header {
+    grid-template-rows: 120px 1fr;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header {
+    grid-template-rows: 1fr;
+  }
+}
+
 @media screen and (max-width: 450px) {
   .header {
     grid-template-rows: 140px 1fr;
