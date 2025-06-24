@@ -22,9 +22,12 @@ export default function MidRight() {
         </li>
       </ul>
       <div className={styles.bottom}>
-        <div className={`${styles.bottomText} ${styles.leftText}`}>Лист 1</div>
-        <div className={`${styles.bottomText} ${styles.leftText}`}>
-          Листов 1
+        <div className={styles.bottomBox}>
+          <span className={`${styles.bottomText} `}> Лист 1</span>
+        </div>
+
+        <div className={styles.bottomBox}>
+          <span className={`${styles.bottomText} `}> Листов 1</span>
         </div>
       </div>
     </div>

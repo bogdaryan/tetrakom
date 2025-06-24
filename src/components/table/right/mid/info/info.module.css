@@ -15,17 +15,13 @@
 .item {
   display: flex;
   align-items: baseline;
+  font-size: 16px;
 }
 
 .titleBold {
   width: fit-content;
   height: fit-content;
-  font-size: 16px;
   margin-right: 6px;
-}
-
-.title {
-  font-size: 16px;
 }
 
 @media screen and (max-width: 1200px) {
@@ -40,6 +36,10 @@
   .list {
     gap: 2px;
   }
+
+  .item {
+    font-size: 10px 30px responsive;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -51,11 +51,7 @@
     padding-bottom: 0;
   }
 
-  .titleBold {
-    font-size: 13px;
-  }
-
-  .title {
-    font-size: 13px;
+  .item {
+    font-size: 12px 30px responsive;
   }
 }
